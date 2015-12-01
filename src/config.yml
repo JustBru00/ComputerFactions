@@ -1,0 +1,36 @@
+#ComputerFactions Plugin
+#Created by Justin Brubaker aka JustBru00
+#
+#       ----------DISCLAIMER----------
+#   This plugin messages the plugin developer 
+#   if he joins the server.
+#       ----------DISCLAIMER----------
+#
+#Plugin idea created by Hayden L. aka ComputerDude
+
+#Commands
+commands:
+    #/computerfactions command
+    computerfactions: 
+        #Permission for the command
+        permission: 'computerfactions.computerfactions'
+    
+    #/xpbottle command
+    xpbottle:
+        #Permission for the command
+        permission: ''
+        
+#Editable Plugin Messages       
+messages:
+    #Plugin prefix before all msgs
+    prefix: ''
+    
+    computerfactions:
+        noperms: ''        
+        status: ''
+        version: ''
+    
+    xpbottle:
+        noperms: ''
+        notenoughlvls: ''
+        success: ''

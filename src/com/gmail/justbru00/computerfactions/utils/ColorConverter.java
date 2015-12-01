@@ -1,7 +1,8 @@
 /**
  * @author Justin Brubaker
- * This class is copyright 2015 Justin Brubaker.
- * DO NOT REMOVE THIS COMMENT!
+ * THE (“ComputerFactions”) SOURCE IS PROVIDED AS IS AT NO MONETARY COST FOR PERSONAL USE ONLY. 
+ * ANY COMMERCIAL OR NON-COMMERCIAL DISTRIBUTION/USE OF THE (“ComputerFactions”) SOURCE IS STRICTLY PROHIBITED.
+ * THE CODE CONTAINED WITHIN THIS CLASS IS COPYRIGHT 2015 ("Justin Brubaker").
  */
 package com.gmail.justbru00.computerfactions.utils;
 

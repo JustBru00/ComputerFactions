@@ -1,0 +1,11 @@
+name: ComputerFactions
+main: com.gmail.justbru00.computerfactions.main.Main
+version: 1.1
+description: A plugin for ComputerFactions Server
+author: Justin Brubaker
+
+commands:
+ computerfactions:
+       description: Version and License command.     
+ xpbottle:
+       description: Gives the player a Xp bottle with some of the players levels.
