@@ -23,7 +23,7 @@ commands:
 #Editable Plugin Messages       
 messages:
     #Plugin prefix before all msgs
-    prefix: ''
+    prefix: '&8[&bEpic&fFactions&8] &f'
     
     epicfactions:
         noperms: '&cYou don''t have permission to use that command.'        
