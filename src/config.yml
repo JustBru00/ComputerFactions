@@ -1,4 +1,4 @@
-#ComputerFactions Plugin
+#EpicFactions Plugin
 #Created by Justin Brubaker aka JustBru00
 #
 #       ----------DISCLAIMER----------
@@ -10,10 +10,10 @@
 
 #Commands
 commands:
-    #/computerfactions command
-    computerfactions: 
+    #/epicfactions command
+    epicfactions: 
         #Permission for the command
-        permission: 'computerfactions.computerfactions'
+        permission: 'epicfactions.epicfactions'
     
     #/xpbottle command
     xpbottle:
@@ -25,7 +25,7 @@ messages:
     #Plugin prefix before all msgs
     prefix: ''
     
-    computerfactions:
+    epicfactions:
         noperms: '&cYou don''t have permission to use that command.'        
         status: ''
         version: ''

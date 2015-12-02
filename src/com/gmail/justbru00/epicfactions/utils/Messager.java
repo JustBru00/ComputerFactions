@@ -1,16 +1,16 @@
 /**
  * @author Justin Brubaker
- * THE (“ComputerFactions”) SOURCE IS PROVIDED AS IS AT NO MONETARY COST FOR PERSONAL USE ONLY. 
- * ANY COMMERCIAL OR NON-COMMERCIAL DISTRIBUTION/USE OF THE (“ComputerFactions”) SOURCE IS STRICTLY PROHIBITED.
+ * THE (“EpicFactions”) SOURCE IS PROVIDED AS IS AT NO MONETARY COST FOR PERSONAL USE ONLY. 
+ * ANY COMMERCIAL OR NON-COMMERCIAL DISTRIBUTION/USE OF THE (“EpicFactions”) SOURCE IS STRICTLY PROHIBITED.
  * THE CODE CONTAINED WITHIN THIS CLASS IS COPYRIGHT 2015 ("Justin Brubaker").
  */
-package com.gmail.justbru00.computerfactions.utils;
+package com.gmail.justbru00.epicfactions.utils;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 
-import com.gmail.justbru00.computerfactions.main.Main;
+import com.gmail.justbru00.epicfactions.main.Main;
 
 public class Messager {
 
