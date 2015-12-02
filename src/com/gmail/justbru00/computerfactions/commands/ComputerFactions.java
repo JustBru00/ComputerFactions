@@ -11,6 +11,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.justbru00.computerfactions.main.Main;
+import com.gmail.justbru00.computerfactions.utils.Messager;
 
 public class ComputerFactions implements CommandExecutor {
 	
@@ -22,7 +23,31 @@ public class ComputerFactions implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-		
+		if(command.getName().equalsIgnoreCase("computerfactions")) {
+			if (sender.hasPermission(main.config.getString("commands.computerfactions.permission"))) {
+				if (args.length == 1) {
+						if (args[0].equalsIgnoreCase("version")) {
+							
+							return true;
+						} else if (args[0].equalsIgnoreCase("license")) {
+							
+							return true;
+						} else if (args[0].equalsIgnoreCase("status")) {
+							
+							return true;
+						} else {
+							Messager.msgSender(sender, main.config.getString("messages.computerfactions.argserror"));
+							return true;
+						}
+				} else {
+					Messager.msgSender(sender, main.config.getString("messages.computerfactions.argserror"));
+					return true;
+				}
+			} else {
+				Messager.msgSender(sender, main.config.getString("messages.computerfactions.noperms"));
+				return true;
+			}
+		}		
 		return false;
 	}
 

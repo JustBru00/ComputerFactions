@@ -6,6 +6,7 @@
  */
 package com.gmail.justbru00.computerfactions.utils;
 
+import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 
@@ -19,6 +20,10 @@ public class Messager {
 	
 	public static void msgPlayer(Player p, String msg) {
 		p.sendMessage(Main.Prefix + ColorConverter.color(msg));
+	}
+	
+	public static void msgSender(CommandSender s, String msg) {
+		s.sendMessage(Main.Prefix + ColorConverter.color(msg));
 	}
 	
 }

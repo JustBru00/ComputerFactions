@@ -26,9 +26,10 @@ messages:
     prefix: ''
     
     computerfactions:
-        noperms: ''        
+        noperms: '&cYou don''t have permission to use that command.'        
         status: ''
         version: ''
+        argserror: '&cPlease type "license", "version", or "status"'
     
     xpbottle:
         noperms: ''
