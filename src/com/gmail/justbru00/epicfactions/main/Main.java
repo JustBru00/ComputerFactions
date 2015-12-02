@@ -13,6 +13,7 @@ import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import com.gmail.justbru00.epicfactions.commands.BottleXP;
 import com.gmail.justbru00.epicfactions.commands.EpicFactions;
 import com.gmail.justbru00.epicfactions.utils.ColorConverter;
 import com.gmail.justbru00.epicfactions.utils.Messager;
@@ -60,6 +61,7 @@ public class Main extends JavaPlugin {
 		
 		// Register Command Handlers 
 		this.getCommand("epicfactions").setExecutor(new EpicFactions(this));
+		this.getCommand("bottlexp").setExecutor(new BottleXP(this));
 		
 		Messager.msgConsole(c, "&aEnabled Sucessfully.");
 	}

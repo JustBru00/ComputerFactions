@@ -44,6 +44,7 @@ public class ItemMaker {
 		
 		ItemMeta im = is.getItemMeta();
 		im.setDisplayName(ColorConverter.color(name));
+		im.setLore(loreList);
 		
 		is.setItemMeta(im);
 		return is;
