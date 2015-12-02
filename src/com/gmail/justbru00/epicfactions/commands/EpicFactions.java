@@ -27,7 +27,8 @@ public class EpicFactions implements CommandExecutor {
 			if (sender.hasPermission(main.config.getString("commands.epicfactions.permission"))) {
 				if (args.length == 1) {
 						if (args[0].equalsIgnoreCase("version")) {
-							Messager.msgSender(sender, "");
+							String temp = main.config.getString("messages.epicfactions.version").replace("%version%", main.PLUGIN_VERSION);
+							Messager.msgSender(sender, temp);
 							return true;
 						} else if (args[0].equalsIgnoreCase("license")) {
 							

@@ -1,11 +1,11 @@
-name: ComputerFactions
-main: com.gmail.justbru00.computerfactions.main.Main
+name: EpicFactions
+main: com.gmail.justbru00.epicfactions.main.Main
 version: 1.1
 description: A plugin for ComputerFactions Server
 author: Justin Brubaker
 
 commands:
- computerfactions:
+ epicfactions:
        description: Version and License command.     
- xpbottle:
+ bottlexp:
        description: Gives the player a Xp bottle with some of the players levels.

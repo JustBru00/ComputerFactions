@@ -6,7 +6,7 @@
 #   if he joins the server.
 #       ----------DISCLAIMER----------
 #
-#Plugin idea created by Hayden L. aka ComputerDude
+#Plugin idea by Hayden L. aka ComputerDude
 
 #Commands
 commands:
@@ -16,9 +16,9 @@ commands:
         permission: 'epicfactions.epicfactions'
     
     #/xpbottle command
-    xpbottle:
+    bottlexp:
         #Permission for the command
-        permission: ''
+        permission: 'epicfactions.bottlexp'
         
 #Editable Plugin Messages       
 messages:
@@ -28,10 +28,13 @@ messages:
     epicfactions:
         noperms: '&cYou don''t have permission to use that command.'        
         status: ''
-        version: ''
+        version: '&fPlugin Version is %version%.'
         argserror: '&cPlease type "license", "version", or "status"'
     
-    xpbottle:
-        noperms: ''
-        notenoughlvls: ''
-        success: ''
+    bottlexp:
+        noperms: '&cYou don''t have permission to use this command.'
+        notenoughlvls: '&cYou don''t have enough levels.'
+        success: '&aYou were given a XP Bottle.'
+        invalidnumber: '&cYou must type a number after /bottlexp' 
+        argserror: '&cYou must type only one number after /bottlexp'
+        invalidsender: '&cYou can''t use this command. (Sorry console)'
