@@ -49,7 +49,7 @@ public class BottleXP implements CommandExecutor {
 					
 					p.setLevel(newlvl);
 					
-					p.getInventory().addItem(ItemMaker.createItem("EXP_BOTTLE", "&eXP BOTTLE", "&f" + withdraw + " XP", ItemMaker.NO_DATA_VALUE));
+					p.getInventory().addItem(ItemMaker.createItem("EXP_BOTTLE", "&eXP BOTTLE", Main.Prefix ,"&f" + withdraw + " XP", ItemMaker.NO_DATA_VALUE));
 					
 					p.playSound(p.getLocation(), Sound.LEVEL_UP, 1, 1);
 					Messager.msgPlayer(p, main.config.getString("messages.bottlexp.success"));

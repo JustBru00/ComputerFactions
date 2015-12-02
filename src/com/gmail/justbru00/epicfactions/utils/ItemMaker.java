@@ -49,4 +49,24 @@ public class ItemMaker {
 		is.setItemMeta(im);
 		return is;
 	}
+	
+	public static ItemStack createItem(String material, String name, String lore, String lore2, short dataValue) {
+		
+		ArrayList<String> loreList = new ArrayList<String>();
+		loreList.add(ColorConverter.color(lore));
+		loreList.add(ColorConverter.color(lore2));
+		
+		if (dataValue == ItemMaker.NO_DATA_VALUE) {
+			 is = new ItemStack(Material.getMaterial(material), 1);
+		} else {
+		     is = new ItemStack(Material.getMaterial(material), 1, dataValue);
+		}
+		
+		ItemMeta im = is.getItemMeta();
+		im.setDisplayName(ColorConverter.color(name));
+		im.setLore(loreList);
+		
+		is.setItemMeta(im);
+		return is;
+	}
 }
